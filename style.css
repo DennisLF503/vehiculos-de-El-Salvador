@@ -55,3 +55,15 @@ dialog::backdrop{background:rgba(10,10,16,.78);backdrop-filter:blur(4px)}
 footer{padding:40px 0 56px;font-size:12px;letter-spacing:.01em;color:var(--ash);font-weight:480}
 @media (max-width:720px){.dg{grid-template-columns:1fr}.im{min-height:0}.big{max-height:50vh}.card,.note{padding:24px}.tx{padding:24px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.card.m:hover{transform:none}}
+.search{width:100%;max-width:480px;font:400 16px var(--body);color:var(--ivory);background:transparent;border:1px solid var(--ivory);border-radius:32px;padding:12px 20px;margin-bottom:16px}
+.search::placeholder{color:var(--ash)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.chips button{font:400 14px var(--body);color:var(--ivory);background:transparent;border:1px solid var(--ivory);border-radius:40px;padding:8px 16px;cursor:pointer;transition:background .2s}
+.chips button:hover{background:var(--obsidian)}
+.chips button[aria-pressed=true]{background:var(--ivory);color:var(--onyx)}
+#cnt{margin:0 0 24px}
+
+.foot{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;justify-content:space-between}
+.foot p{margin:0}
+.ig{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border:1px solid var(--ivory);border-radius:40px;color:var(--ivory);text-decoration:none;font-size:14px;letter-spacing:.005em;transition:background .2s}
+.ig:hover{background:var(--obsidian)}
